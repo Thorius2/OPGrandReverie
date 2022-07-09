@@ -850,7 +850,7 @@ html {
 }
 
 .login-container {
-    width: 40%;
+    width: 60%;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -1030,6 +1030,10 @@ html {
         display: none;
     }
 
+    .signup-background-img {
+        display: none;
+    }
+
     .login-container {
         width: 100%;
     }
@@ -1067,3 +1071,259 @@ html {
         padding: 0px 5px;
     }
 }
+
+
+
+/* SIGNUP */
+
+.signup-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    /* height: calc(100vh - 80px); */
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
+@media (min-width: 1441px) {
+    .signup-section {
+        border-bottom: 2px solid white;
+    }
+}
+
+.signup-background-img {
+    background-image: URL(https://wallpapercave.com/dwp1x/wp4855645.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 40%;
+    height: 90vh;
+    border-radius: 5px;
+}
+
+.signup-image {
+    width: 100%;
+    max-width: 150px;
+}
+
+.signup-image img {
+    width: 100%;
+}
+
+.signup-container {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.signup-form {
+    color: white;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.signup-form label {
+    font-weight: bold;
+    font-size: 24px;
+    width: 100%;
+    text-align: left;
+}
+
+.signup-form input {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 20px;
+    border:  none;
+    padding: 5px 10px;
+    font-size: 22px;
+}
+
+.signup-form select {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 20px;
+    border:  none;
+    padding: 4px 10px;
+    font-size: 22px;
+}
+
+.signup-form .submit-container {
+    max-width: 200px; 
+}
+
+.signup-form input:focus {
+    outline: 5px solid var(--red);;
+}
+
+.signup-form select:focus {
+    outline: 5px solid var(--red);;
+}
+
+@media (max-width: 1024px) {
+
+    .signup-form label {
+        font-size: 20px;
+    }
+
+    .signup-form input {
+        padding: 5px;
+        font-size: 18px;
+    }
+
+    .signup-form select {
+        padding: 5px;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 920px) {
+
+    .signup-form label {
+        font-size: 18px;
+    }
+
+    .signup-form input {
+        padding: 5px;
+        font-size: 16px;
+    }
+
+    .signup-form select {
+        padding: 5px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .signup-form label {
+        font-size: 18px;
+    }
+
+    .signup-form input {
+        padding: 4px;
+        font-size: 14px;
+    }
+
+    .signup-form select {
+        padding: 4px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 320px) {
+
+    .signup-form label {
+        font-size: 16px;
+    }
+
+    .signup-form input {
+        padding: 4px;
+        font-size: 12px;
+    }
+
+    .signup-form select {
+        padding: 4px;
+        font-size: 12px;
+    }
+}
+
+@media (max-height: 760px) {
+
+    .signup-image {
+        height: 100px;
+        width: 100px;
+    }
+
+} 
+
+@media (max-height: 680px) {
+
+    .signup-image {
+        height: 100px;
+        width: 100px;
+    }
+
+} 
+
+@media (max-height: 320px) {
+
+    .signup-image {
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 80px;
+        width: 80px;
+    }
+
+} 
+
+
+
+/* 
+@media (max-width: 768px) {
+
+    .signup-image {
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 80px;
+        width: 80px;
+    }
+
+    .signup-container {
+        height: 80%;
+    }
+
+    .signup-form {
+        height: 100%;
+    }
+
+    .signup-form label {
+        font-size: 18px;
+    }
+
+    .signup-form input {
+        font-size: 14px;
+    }
+
+    .signup-form select {
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width: 320px) {
+
+    .signup-image {
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 80px;
+        width: 80px;
+    }
+
+    .signup-form label {
+        font-size: 14px;
+    }
+
+    .signup-form input {
+        font-size: 14px;
+    }
+
+    .signup-form select {
+        font-size: 14px;
+    }
+
+} */
+
+
